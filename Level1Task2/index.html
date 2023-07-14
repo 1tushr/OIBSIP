@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>temperature converter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="tempBGcolor">
+      <div id="tempContain">
+        <h2>Fahrenheit to Celsius Converter</h2>
+        <h4>Enter a number at Fahrenheit or Celsius</h4>
+        <small
+          >You can also use the up and down arrows on the keyboard or swipe left
+          or right on a mobile device.</small
+        >
+        <form id="fForm">
+          <input
+            class="temp"
+            name="fahrenheit"
+            id="fahrenheit"
+            type="number"
+            value="32"
+            placeholder="Enter a number"
+          />
+          <p>Fahrenheit</p>
+        </form>
+
+        <form id="cForm">
+          <input
+            class="temp"
+            name="celsius"
+            id="celsius"
+            type="number"
+            value="0"
+            placeholder="Enter a number"
+          />
+          <p>Celsius</p>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
