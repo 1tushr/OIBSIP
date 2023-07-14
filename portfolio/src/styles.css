@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200&family=Mulish:ital,wght@1,200&family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: #171c28;
+  /* color:white; */
+}
+.intro {
+  color: white;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+.hello {
+  margin: 5rem;
+  font-size: 1rem;
+}
+.hello img {
+  height: 2rem;
+  margin-left: 1rem;
+}
+.bio {
+  display: flex;
+  line-height: 6rem;
+}
+.bio p {
+  font-size: 3rem;
+  width: 60rem;
+  margin-left: 5rem;
+  display: flex;
+}
+.bio img {
+  height: 5rem;
+  margin-top: 9rem;
+  margin-right: 2rem;
+}
+.touch {
+  margin: 5rem;
+  align-items: baseline;
+}
+.touch img {
+  width: 2rem;
+  margin: 1rem 1rem -0.8rem 1rem;
+}
+.touch a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid blue;
+}
+.background {
+  margin: 10rem;
+  display: flex;
+  width: 70%;
+  gap: 12rem;
+}
+.background h2 {
+  color: blue;
+}
+
+.skills {
+  display: flex;
+  gap: 5rem;
+  margin: 8rem;
+}
+.skills h2 {
+  color: blue;
+  margin-left: 1rem;
+}
+/* .languages {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 5rem;
+} */
+.languages {
+  display: flex;
+  align-items: center;
+}
+
+.bullet-list {
+  display: flex;
+  list-style-type: disc;
+  gap: 1rem;
+  margin-left: 10rem;
+}
+
+.bullet-list li {
+  margin-left: 10px;
+}
+
+.skills h3 {
+  margin-left: 5rem;
+}
+
+.resume {
+  /* margin: 5rem;
+  margin-left: 9rem; */
+  font-weight: bold;
+  text-align: center;
+  border: 2px dashed blue;
+  margin: 0rem 40rem;
+  padding: 1rem;
+  width: 12rem;
+}
+
+.projects h2 {
+  margin: 5rem;
+  color: blue;
+  margin-left: 9rem;
+}
+.samples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-left: 10rem;
+}
+.footer {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+.footer img {
+  width: 5rem;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.footer span,
+.footer a,
+.footer h3 {
+  margin: 0;
+  color: white;
+  width: 5rem;
+}
+
+/* .footer span:not(:last-child) {
+  margin-right: 10px;
+} */
+
+.footer .social {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  
+
+  /* margin-left: 5rem; */
+
+  margin-left: 50rem;
+  /* justify-content: space-between; */
+}
+
+.instruction p{
+  margin-left: 20rem;
+}
+
+.iframe {
+  border: solid #000000;
+  width: 50%;
+  height: 30rem;
+  margin: 5rem;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem; /* Adjust the gap as per your preference */
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project img {
+  width: 100%; /* Adjust the image size as per your preference */
+}
+
+.project p {
+  margin-top: 10px; /* Adjust the margin as per your preference */
+}
+
+@media only screen and (min-width:768px)and (max-width : 1023px)  {
+  .hello{
+    margin-bottom: -1rem;
+  }
+  .bio p{
+    font-size: 2rem;
+  }
+ .bio img{
+  margin-right: 12rem;
+ }
+ .background{
+  margin: 10rem;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 12rem;
+ }
+ .bullet-list{
+  gap: 1rem;
+    margin-left: 12rem;
+    font-size: 1rem;
+    text-wrap: nowrap;
+ }
+ .skills{
+  flex-direction: column;
+ }
+ .languages{
+  margin-left: -14rem;
+ }
+ .resume{
+  margin: 0rem 24rem;
+ }
+ .projects h2{
+  margin-left: 24rem;
+ }
+ .samples{
+  .samples {
+    display: flex;
+    flex-direction: column;
+  gap: 2rem;
+  margin-left: 6rem;
+ }
+ .project-grid{
+  display: flex;
+  flex-direction: column;
+  margin-left: -5rem;
+ }
+ .footer .social {
+  display: flex;
+  align-items: center;
+  margin-left: 9rem;
+}
+ .social {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: .8rem;
+
+  
+
+  /* margin-left: 5rem; */
+
+  
+  /* justify-content: space-between; */
+}
+.social a{
+  margin-left: 10rem;
+}
+}
+}
+
+
+@media screen and (min-width:320px)and (max-width:767px){
+    .hello{
+      margin-bottom: -1rem;
+   
+    }
+    .hello h1 span{
+      font-size: 1rem;
+      margin-left: 3rem;
+    }
+    .hello img{
+      height: 1rem;
+    margin-left: -2rem;
+    }
+    .bio p{
+      font-size: .8rem;
+      width: 11rem;
+      margin-left: 7rem;
+      display: flex;
+      line-height: 1rem;
+    }
+   .bio img{
+    height: 3rem;
+    margin-top: 6rem;
+    position: absolute;
+    margin-left: 10rem;
+   }
+   .touch span img{
+rotate: 91deg;
+margin-left: 2.1rem;
+margin-bottom: 2rem;
+   }
+
+   .touch p span {
+    padding: 1rem;
+    padding-left: 3rem;
+   }
+   .background{
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+   }
+   .background h2{
+    margin: 2rem;
+   }
+   .about{
+    width: 21rem;
+   }
+   .bullet-list{
+    flex-direction: column;
+    gap: 1rem;
+      margin-left: 15rem;
+      font-size: 1rem;
+      text-wrap: nowrap;
+   }
+   .skills{
+    flex-direction: column;
+    margin-bottom: -4rem;
+   }
+   .skills h2{
+    margin-bottom: -3rem;
+   }
+   .languages{
+    margin-left: -16rem;
+   }
+   .resume{
+    margin: 8rem 6rem;
+   }
+   .projects p{
+    margin: 2rem 1rem 2rem 2rem;
+   }
+   .instructions p{
+    margin: "5rem";
+    margin-left: "9rem";
+    text-decoration: "underline";
+    font-size: ".9rem";
+   }
+   .projects h2{
+    margin-left: 24rem;
+   }
+   .samples{
+    
+      display: flex;
+      flex-direction: column;
+    gap: 2rem;
+    margin-left: 6rem;
+   }
+   .project-grid{
+    display: flex;
+    flex-direction: column;
+    margin-left: -6rem;
+    
+   }
+   .project .mac-window{
+    width: 22rem;
+    height: 15rem;
+   }
+   .projects h2{
+    width: 16rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+   }
+   .footer{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem;
+    font-size: .8rem;
+    margin-left: 5rem;
+    
+  }
+   .social {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  
+   
+    /* margin-left: 5rem; */
+  
+    /* margin-left: 10rem; */
+    /* justify-content: space-between; */
+  }
+  }
+  
